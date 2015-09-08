@@ -1,0 +1,38 @@
+{
+  "name": "astro-sass",
+  "version": "1.0.0",
+  "description": "Astro module for transpiling sass using node-sass",
+  "main": "dist/index.js",
+  "scripts": {
+    "prestart": "npm run transpile",
+    "start": "",
+    "preversion": "npm run nowatchtest",
+    "pretranspile": "astro jshint",
+    "transpile": "astro babel --input src",
+    "pretest": "npm run transpile",
+    "test": "astro test --watch",
+    "nowatchtest": "astro test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://MikeFielden@github.com/CollinEstes/astro-sass.git"
+  },
+  "keywords": [
+    "astro",
+    "sass",
+    "transpiling"
+  ],
+  "author": "Mike Fielden",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CollinEstes/astro-sass/issues"
+  },
+  "homepage": "https://github.com/CollinEstes/astro-sass#readme",
+  "dependencies": {
+    "minifier": "^0.7.1",
+    "node-sass": "^3.3.2"
+  },
+  "devDependencies": {
+    "astro": "^0.1.6"
+  }
+}
