@@ -29,7 +29,6 @@
   },
   "homepage": "https://github.com/CollinEstes/astro-sass#readme",
   "dependencies": {
-    "minifier": "^0.7.1",
     "node-sass": "^3.3.2"
   },
   "devDependencies": {

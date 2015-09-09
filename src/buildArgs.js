@@ -27,4 +27,4 @@ module.exports = function (projectDir, options) {
   args.push('--source-map-embed');
 
   return args;
-}
+};

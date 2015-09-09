@@ -13,8 +13,8 @@ var buildArgs = require('./buildArgs')
 
 module.exports = function (projectDir, options) {
 	var args = buildArgs(projectDir, options)
-	, cmd = path.resolve(fs.realpathSync(__dirname), './node_modules/.bin/node-sass');
+	, cmd = path.resolve(fs.realpathSync(__dirname), '../' ,'./node_modules/.bin/node-sass');
 
 	//setup
 	return { cmd: cmd, args: args };
-}
+};
