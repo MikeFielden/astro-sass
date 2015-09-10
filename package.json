@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://MikeFielden@github.com/CollinEstes/astro-sass.git"
+    "url": "git+https://MikeFielden@github.com/MikeFielden/astro-sass.git"
   },
   "keywords": [
     "astro",
@@ -25,9 +25,9 @@
   "author": "Mike Fielden",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/CollinEstes/astro-sass/issues"
+    "url": "https://github.com/MikeFielden/astro-sass/issues"
   },
-  "homepage": "https://github.com/CollinEstes/astro-sass#readme",
+  "homepage": "https://github.com/MikeFielden/astro-sass#readme",
   "dependencies": {
     "node-sass": "^3.3.2"
   },

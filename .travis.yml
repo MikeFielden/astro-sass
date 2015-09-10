@@ -1,4 +1,11 @@
 language: node_js
-
 node_js:
- - "0.12"
+- '0.12'
+deploy:
+  provider: npm
+  email: fielden.mike@gmail.com
+  api_key:
+    secure: uhCrvY/x7LLyi9ML9kcHibjrFak/juyo4pKtycf/0CXXjbuIchQP8ozoyEuBgOvL5Ld6zbMYXLBHSIx/eT9RI7f40gO/x1CAFp8uJ8ihwYoF7fMSxzR/IfwPE/EyoNSUqVLNeWyameu9yDPzrp5v3JWgJshFR6FosTl4oA/xkXxnRtFK29SFTjsoY3bY00RQlWfJBrwnf9phk/a/RwJFzd1XuQs3dgE3LDRQffofmctIopqIWtvln0pHE9M0zPpt6ZkUllWVBs1JzAjrJ+7OTCIrWjamGS+OfCgR6DkzzRdIFEEsrB7YggUz8gJvf8XAvjrPMI58l9GdBJP71QHqJll5wDsqZcbnqqeHJ8iD/c2GH6usQGgUzPY3jek6aM2qNrXY/gs3HQkplG4c7vCC4KgaKqbnefRbyG75aO06hfhYL6wrhM8lDQm2zZMVc0Yydkkavs7qt7Zhi7BMZQCpdDK/IfvlJ4rH+TsnbHBt6sePu5rKzZVEsp2oYgYwSdOIRFu0Hq2z1//UviVF3nB/fTibFSuXj/WVwfUTwEe7XvFqLawoLEFDl2RW6w+eeKUEvXYF3JnLY5QJOKaMkRd5VWjqOmJse54FdL2E048lSv7O3IF5m8wQUl5h63EGns3ldl5Hejr1p9NhHWIZkSsmZapOMLiawAfP2DIobAkqyBA=
+  on:
+    tags: true
+    repo: MikeFielden/astro-sass
