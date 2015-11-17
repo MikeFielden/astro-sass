@@ -26,6 +26,8 @@ module.exports = function (projectDir, options) {
   args.push('-o');
   args.push(defaultOut);
   args.push('--source-map-embed');
+  args.push('-v');
+  args.push('--output-style=compressed');
 
   return args;
 };
